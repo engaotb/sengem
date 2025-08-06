@@ -118,7 +118,7 @@ function getEmbeddedQuestions() {
                     "points": 400,
                     "question": "ما هو اسم أطول جسر في العالم يربط بين مدينتين؟",
                     "answer": "جسر دانيانغ-كونشان",
-                    "image": "images/civil_400_new.jpg"
+                    "image": "images/civil_400.jpg"
                 },
                 {
                     "points": 600,

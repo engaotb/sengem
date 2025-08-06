@@ -1,139 +1,139 @@
 {
     "الهندسة المعمارية": {
-        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop",
+        "image": "images/architecture_main.jpg",
         "questions": [
             {
                 "points": 200,
                 "question": "ما هو اسم أطول برج في العالم؟",
                 "answer": "برج خليفة",
-                "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=400&h=300&fit=crop"
+                "image": "images/burj_khalifa.jpg"
             },
             {
                 "points": 400,
                 "question": "ما هو الشكل الهندسي الذي يعتبر أقوى شكل في البناء؟",
                 "answer": "المثلث",
-                "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=300&fit=crop"
+                "image": "images/triangle.jpg"
             },
             {
                 "points": 600,
                 "question": "ما هي المادة الأساسية المستخدمة في بناء ناطحات السحاب؟",
                 "answer": "الزجاج والفولاذ",
-                "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop"
+                "image": "images/skyscrapers.jpg"
             }
         ]
     },
     "الهندسة المدنية": {
-        "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
+        "image": "images/civil_main.jpg",
         "questions": [
             {
                 "points": 200,
-                "question": "ما هي المادة الأساسية في صنع الخرسانة؟",
+                "question": "ما هي المادة الأساسية المستخدمة في صنع الخرسانة المسلحة؟",
                 "answer": "الإسمنت",
-                "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&h=300&fit=crop"
+                "image": "images/cement.jpg"
             },
             {
                 "points": 400,
-                "question": "ما هو اسم أطول جسر في العالم؟",
+                "question": "ما هو اسم أطول جسر في العالم يربط بين مدينتين؟",
                 "answer": "جسر دانيانغ-كونشان",
-                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop"
+                "image": "images/bridge.jpg"
             },
             {
                 "points": 600,
-                "question": "في أي مادة يتم قياس قوة الضغط؟",
+                "question": "في أي وحدة قياس يتم قياس قوة الضغط على المواد؟",
                 "answer": "الباسكال",
-                "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=300&fit=crop"
+                "image": "images/pressure.jpg"
             }
         ]
     },
     "الهندسة الميكانيكية": {
-        "image": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=400&h=300&fit=crop",
+        "image": "images/mechanical_main.jpg",
         "questions": [
             {
                 "points": 200,
-                "question": "ما هو اسم القوة التي تقاوم الحركة؟",
-                "answer": "الاحتكاك",
-                "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop"
+                "question": "ما هو اسم القوة التي تقاوم الحركة بين الأسطح؟",
+                "answer": "قوة الاحتكاك",
+                "image": "images/mechanical_200.jpg"
             },
             {
                 "points": 400,
-                "question": "ما هي وحدة قياس القوة؟",
+                "question": "ما هي وحدة قياس القوة في النظام الدولي؟",
                 "answer": "نيوتن",
-                "image": "https://images.unsplash.com/photo-1562408590-e32931084e23?w=400&h=300&fit=crop"
+                "image": "images/mechanical_400_new.jpg"
             },
             {
                 "points": 600,
-                "question": "ما هو اسم المحرك الذي يحول الحرارة إلى حركة؟",
+                "question": "ما هو نوع المحرك الذي يحول الطاقة الحرارية إلى حركة ميكانيكية؟",
                 "answer": "محرك الاحتراق الداخلي",
-                "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=300&fit=crop"
+                "image": "images/mechanical_600_new.jpg"
             }
         ]
     },
     "الهندسة الكهربائية": {
-        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+        "image": "images/electrical_600.jpg",
         "questions": [
             {
                 "points": 200,
                 "question": "ما هي وحدة قياس التيار الكهربائي؟",
                 "answer": "أمبير",
-                "image": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=400&h=300&fit=crop"
+                "image": "images/ampere.jpg"
             },
             {
                 "points": 400,
                 "question": "ما هو اسم الجهاز الذي يقيس الجهد الكهربائي؟",
                 "answer": "فولتميتر",
-                "image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400&h=300&fit=crop"
+                "image": "images/voltmeter.jpg"
             },
             {
                 "points": 600,
                 "question": "ما هو قانون أوم في الكهرباء؟",
                 "answer": "V = I × R",
-                "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+                "image": "images/ohm_law.jpg"
             }
         ]
     },
     "هندسة الحاسوب": {
-        "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop",
+        "image": "images/computer_main.jpg",
         "questions": [
             {
                 "points": 200,
                 "question": "ما هو اسم عقل الحاسوب؟",
                 "answer": "المعالج (CPU)",
-                "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=300&fit=crop"
+                "image": "images/cpu.jpg"
             },
             {
                 "points": 400,
                 "question": "ما هي وحدة قياس سرعة المعالج؟",
                 "answer": "هيرتز (Hz)",
-                "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
+                "image": "images/computer_main.jpg"
             },
             {
                 "points": 600,
                 "question": "ما هو اسم لغة البرمجة المشهورة بالثعبان؟",
                 "answer": "Python",
-                "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=300&fit=crop"
+                "image": "images/python.jpg"
             }
         ]
     },
     "الأمن السيبراني": {
-        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=300&fit=crop",
+        "image": "images/cybersecurity_main.jpg",
         "questions": [
             {
                 "points": 200,
                 "question": "ما هو اسم البرنامج الضار الذي يخفي نفسه؟",
                 "answer": "حصان طروادة",
-                "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop"
+                "image": "images/trojan.jpg"
             },
             {
                 "points": 400,
                 "question": "ما هو المصطلح المستخدم للهجمات الإلكترونية؟",
                 "answer": "القرصنة",
-                "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop"
+                "image": "images/hacking.jpg"
             },
             {
                 "points": 600,
                 "question": "ما هو اسم عملية تشفير البيانات؟",
                 "answer": "التشفير",
-                "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=300&fit=crop"
+                "image": "images/encryption.jpg"
             }
         ]
     }

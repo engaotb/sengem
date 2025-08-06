@@ -109,7 +109,7 @@ function getEmbeddedQuestions() {
                     "points": 400,
                     "question": "ما هو اسم أطول جسر في العالم؟",
                     "answer": "جسر دانيانغ-كونشان",
-                    "image": "images/civil_400.jpg"
+                    "image": "images/civil_400_new.jpg"
                 },
                 {
                     "points": 600,
@@ -126,19 +126,19 @@ function getEmbeddedQuestions() {
                     "points": 200,
                     "question": "ما هو اسم القوة التي تقاوم الحركة؟",
                     "answer": "الاحتكاك",
-                    "image": "images/mechanical_200.jpg"
+                    "image": "images/mechanical_200_new.jpg"
                 },
                 {
                     "points": 400,
                     "question": "ما هي وحدة قياس القوة؟",
                     "answer": "نيوتن",
-                    "image": "images/force.jpg"
+                    "image": "images/mechanical_400_new.jpg"
                 },
                 {
                     "points": 600,
                     "question": "ما هو اسم المحرك الذي يحول الحرارة إلى حركة؟",
                     "answer": "محرك الاحتراق الداخلي",
-                    "image": "images/mechanical_600.jpg"
+                    "image": "images/mechanical_600_new.jpg"
                 }
             ]
         },

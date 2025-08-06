@@ -58,15 +58,24 @@ async function initGame() {
 // Load questions from questions.json
 async function loadQuestions() {
     try {
-        const response = await fetch('questions.json');
+        const response = await fetch('questions.json?t=' + Date.now(), {
+            cache: 'no-cache',
+            headers: {
+                'Cache-Control': 'no-cache, no-store, must-revalidate',
+                'Pragma': 'no-cache',
+                'Expires': '0'
+            }
+        });
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         questionsData = await response.json();
+        console.log('Loaded questions from questions.json:', questionsData);
     } catch (error) {
         console.error('Error loading questions:', error);
         // Use embedded questions with images if file not found
         questionsData = getEmbeddedQuestions();
+        console.log('Using embedded questions:', questionsData);
     }
 }
 
@@ -421,7 +430,7 @@ function showQuestionView() {
             <div class="question-main">
                 <div class="question-image-container">
                     ${gameState.currentQuestion.image ? 
-                        `<img src="${gameState.currentQuestion.image}" class="question-image" onerror="this.src=''; this.style.display='none'; this.parentNode.classList.add('empty');" onload="console.log('Image loaded successfully:', this.src);">` : 
+                        `<img src="${gameState.currentQuestion.image}?t=${Date.now()}" class="question-image" onerror="this.src=''; this.style.display='none'; this.parentNode.classList.add('empty');" onload="console.log('Image loaded successfully:', this.src);">` : 
                         '<div class="image-placeholder">لا توجد صورة</div>'
                     }
                 </div>

@@ -1,0 +1,15 @@
+theme: jekyll-theme-cayman
+title: Senjem - لعبة الأسئلة الهندسية
+description: لعبة تفاعلية تعليمية للطلاب المهندسين
+url: https://engaotb.github.io/sengem
+baseurl: /sengem
+
+# GitHub Pages settings
+plugins:
+  - jekyll-relative-links
+
+# Exclude files from processing
+exclude:
+  - .gitignore
+  - README.md
+  - .github/ 

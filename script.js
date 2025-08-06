@@ -101,19 +101,19 @@ function getEmbeddedQuestions() {
             "questions": [
                 {
                     "points": 200,
-                    "question": "ما هي المادة الأساسية في صنع الخرسانة؟",
+                    "question": "ما هي المادة الأساسية المستخدمة في صنع الخرسانة المسلحة؟",
                     "answer": "الإسمنت",
                     "image": "images/cement.jpg"
                 },
                 {
                     "points": 400,
-                    "question": "ما هو اسم أطول جسر في العالم؟",
+                    "question": "ما هو اسم أطول جسر في العالم يربط بين مدينتين؟",
                     "answer": "جسر دانيانغ-كونشان",
                     "image": "images/civil_400_new.jpg"
                 },
                 {
                     "points": 600,
-                    "question": "في أي مادة يتم قياس قوة الضغط؟",
+                    "question": "في أي وحدة قياس يتم قياس قوة الضغط على المواد؟",
                     "answer": "الباسكال",
                     "image": "images/pressure.jpg"
                 }
@@ -124,26 +124,26 @@ function getEmbeddedQuestions() {
             "questions": [
                 {
                     "points": 200,
-                    "question": "ما هو اسم القوة التي تقاوم الحركة؟",
-                    "answer": "الاحتكاك",
-                    "image": "images/mechanical_200_new.jpg"
+                    "question": "ما هو اسم القوة التي تقاوم الحركة بين الأسطح؟",
+                    "answer": "قوة الاحتكاك",
+                    "image": "images/mechanical_200.jpg"
                 },
                 {
                     "points": 400,
-                    "question": "ما هي وحدة قياس القوة؟",
+                    "question": "ما هي وحدة قياس القوة في النظام الدولي؟",
                     "answer": "نيوتن",
                     "image": "images/mechanical_400_new.jpg"
                 },
                 {
                     "points": 600,
-                    "question": "ما هو اسم المحرك الذي يحول الحرارة إلى حركة؟",
+                    "question": "ما هو نوع المحرك الذي يحول الطاقة الحرارية إلى حركة ميكانيكية؟",
                     "answer": "محرك الاحتراق الداخلي",
-                    "image": "images/mechanical_600_new.jpg"
+                    "image": "images/mechanical_600.jpg"
                 }
             ]
         },
         "الهندسة الكهربائية": {
-            "image": "images/electrical_main.jpg",
+            "image": "images/electrical_600.jpg",
             "questions": [
                 {
                     "points": 200,
@@ -161,7 +161,7 @@ function getEmbeddedQuestions() {
                     "points": 600,
                     "question": "ما هو قانون أوم في الكهرباء؟",
                     "answer": "V = I × R",
-                    "image": "images/electrical_600.jpg"
+                    "image": "images/ohm_law.jpg"
                 }
             ]
         },
@@ -178,7 +178,7 @@ function getEmbeddedQuestions() {
                     "points": 400,
                     "question": "ما هي وحدة قياس سرعة المعالج؟",
                     "answer": "هيرتز (Hz)",
-                    "image": "images/computer_400.jpg"
+                    "image": "images/computer_main.jpg"
                 },
                 {
                     "points": 600,

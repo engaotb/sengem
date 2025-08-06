@@ -1,0 +1,140 @@
+{
+    "الهندسة المعمارية": {
+        "image": "images/architecture_main.jpg",
+        "questions": [
+            {
+                "points": 200,
+                "question": "ما هو اسم أطول برج في العالم؟",
+                "answer": "برج خليفة",
+                "image": "images/burj_khalifa.jpg"
+            },
+            {
+                "points": 400,
+                "question": "ما هو الشكل الهندسي الذي يعتبر أقوى شكل في البناء؟",
+                "answer": "المثلث",
+                "image": "images/triangle.jpg"
+            },
+            {
+                "points": 600,
+                "question": "ما هي المادة الأساسية المستخدمة في بناء ناطحات السحاب؟",
+                "answer": "الزجاج والفولاذ",
+                "image": "images/skyscrapers.jpg"
+            }
+        ]
+    },
+    "الهندسة المدنية": {
+        "image": "images/civil_main.jpg",
+        "questions": [
+            {
+                "points": 200,
+                "question": "ما هي المادة الأساسية المستخدمة في صنع الخرسانة المسلحة؟",
+                "answer": "الإسمنت",
+                "image": "images/cement.jpg"
+            },
+            {
+                "points": 400,
+                "question": "ما هو اسم أطول جسر في العالم يربط بين مدينتين؟",
+                "answer": "جسر دانيانغ-كونشان",
+                "image": "images/civil_400.jpg"
+            },
+            {
+                "points": 600,
+                "question": "في أي وحدة قياس يتم قياس قوة الضغط على المواد؟",
+                "answer": "الباسكال",
+                "image": "images/pressure.jpg"
+            }
+        ]
+    },
+    "الهندسة الميكانيكية": {
+        "image": "images/mechanical_main.jpg",
+        "questions": [
+            {
+                "points": 200,
+                "question": "ما هو اسم القوة التي تقاوم الحركة بين الأسطح؟",
+                "answer": "قوة الاحتكاك",
+                "image": "images/mechanical_200.jpg"
+            },
+            {
+                "points": 400,
+                "question": "ما هي وحدة قياس القوة في النظام الدولي؟",
+                "answer": "نيوتن",
+                "image": "images/mechanical_400_new.jpg"
+            },
+            {
+                "points": 600,
+                "question": "ما هو نوع المحرك الذي يحول الطاقة الحرارية إلى حركة ميكانيكية؟",
+                "answer": "محرك الاحتراق الداخلي",
+                "image": "images/mechanical_600.jpg"
+            }
+        ]
+    },
+    "الهندسة الكهربائية": {
+        "image": "images/electrical_600.jpg",
+        "questions": [
+            {
+                "points": 200,
+                "question": "ما هي وحدة قياس التيار الكهربائي؟",
+                "answer": "أمبير",
+                "image": "images/ampere.jpg"
+            },
+            {
+                "points": 400,
+                "question": "ما هو اسم الجهاز الذي يقيس الجهد الكهربائي؟",
+                "answer": "فولتميتر",
+                "image": "images/voltmeter.jpg"
+            },
+            {
+                "points": 600,
+                "question": "ما هو قانون أوم في الكهرباء؟",
+                "answer": "V = I × R",
+                "image": "images/ohm_law.jpg"
+            }
+        ]
+    },
+    "هندسة الحاسوب": {
+        "image": "images/computer_main.jpg",
+        "questions": [
+            {
+                "points": 200,
+                "question": "ما هو اسم عقل الحاسوب؟",
+                "answer": "المعالج (CPU)",
+                "image": "images/cpu.jpg"
+            },
+            {
+                "points": 400,
+                "question": "ما هي وحدة قياس سرعة المعالج؟",
+                "answer": "هيرتز (Hz)",
+                "image": "images/computer_main.jpg"
+            },
+            {
+                "points": 600,
+                "question": "ما هو اسم لغة البرمجة المشهورة بالثعبان؟",
+                "answer": "Python",
+                "image": "images/python.jpg"
+            }
+        ]
+    },
+    "الأمن السيبراني": {
+        "image": "images/cybersecurity_main.jpg",
+        "questions": [
+            {
+                "points": 200,
+                "question": "ما هو اسم البرنامج الضار الذي يخفي نفسه؟",
+                "answer": "حصان طروادة",
+                "image": "images/trojan.jpg"
+            },
+            {
+                "points": 400,
+                "question": "ما هو المصطلح المستخدم للهجمات الإلكترونية؟",
+                "answer": "القرصنة",
+                "image": "images/hacking.jpg"
+            },
+            {
+                "points": 600,
+                "question": "ما هو اسم عملية تشفير البيانات؟",
+                "answer": "التشفير",
+                "image": "images/encryption.jpg"
+            }
+        ]
+    }
+}

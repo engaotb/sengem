@@ -180,7 +180,8 @@ function getEmbeddedQuestions() {
                 {
                     "points": 200,
                     "question": "ما الاسم المعماري لهذا المخطط؟",
-                    "answer": "Plan"
+                    "answer": "Plan",
+                    "image": "questions-image/For Q2 m3mariah.jpeg"
                 },
                 {
                     "points": 300,
@@ -190,7 +191,8 @@ function getEmbeddedQuestions() {
                 {
                     "points": 400,
                     "question": "ما الفائدة من استخدام مخططات الSections؟",
-                    "answer": "لمعرفة الارتفاعات المحددة لكل طابق"
+                    "answer": "لمعرفة الارتفاعات المحددة لكل طابق",
+                    "image": "questions-image/For Q4 m3mariah.jpeg"
                 }
             ]
         },

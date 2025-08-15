@@ -447,7 +447,10 @@ function showQuestionView() {
             <div class="question-main">
                 ${gameState.currentQuestion.image ? 
                     `<div class="question-image-container">
-                        <img src="${gameState.currentQuestion.image}?t=${Date.now()}" class="question-image" onerror="this.src=''; this.style.display='none'; this.parentNode.classList.add('empty');" onload="console.log('Image loaded successfully:', this.src);">
+                        <img src="${gameState.currentQuestion.image}?t=${Date.now()}" class="question-image" 
+                             onerror="console.error('Image failed to load:', this.src); this.style.display='none'; this.parentNode.classList.add('empty');" 
+                             onload="console.log('Image loaded successfully:', this.src); this.style.display='block';"
+                             style="max-width: 100%; height: auto; display: block;">
                     </div>` : 
                     ''
                 }
@@ -483,6 +486,13 @@ function showQuestionView() {
     resetTimer();
     startTimer();
     updateLifelinesInline();
+    
+    // Debug: Log current question data and test image loading
+    console.log('Current question data:', gameState.currentQuestion);
+    if (gameState.currentQuestion.image) {
+        console.log('Question image path:', gameState.currentQuestion.image);
+        testImageLoading(gameState.currentQuestion.image);
+    }
     
     // Show back button when in question view
     const backButton = document.getElementById('backButton');
@@ -969,6 +979,21 @@ function resetGame() {
         renderCategories();
         renderTeams();
     }
+}
+
+// Test image loading function
+function testImageLoading(imagePath) {
+    console.log('Testing image loading for:', imagePath);
+    const img = new Image();
+    img.onload = () => {
+        console.log('✅ Image loaded successfully:', imagePath);
+        console.log('Image dimensions:', img.width, 'x', img.height);
+    };
+    img.onerror = () => {
+        console.error('❌ Image failed to load:', imagePath);
+        console.error('Full path:', window.location.origin + '/' + imagePath);
+    };
+    img.src = imagePath;
 }
 
 // Initialize game when page loads

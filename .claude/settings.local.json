@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:play.kahoot.it)",
+      "WebFetch(domain:create.kahoot.it)"
+    ],
+    "deny": []
+  }
+}

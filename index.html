@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>لعبة الأسئلة - مجموعة مهندسي المستقبل</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Cairo:wght@300;400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Background Decorations removed for Kahoot flat design -->
+    
+    <div class="game-container">
+        <!-- Fixed Global Header -->
+        <header class="global-header">
+            <div class="header-buttons">
+                <button class="reset-button" onclick="resetGame()"><i data-lucide="rotate-ccw"></i></button>
+                <button class="back-button" onclick="goBackToCategories()" id="backButton" style="display: none;"><i data-lucide="arrow-left"></i></button>
+            </div>
+            <h1 class="game-logo">مجموعة مهندسي المستقبل</h1>
+        </header>
+        
+        <!-- Dynamic Content Area -->
+        <main class="content-area" id="contentArea">
+            <div class="team-selection-bar">
+                <h3>اختر الفريق:</h3>
+                <div class="team-selection-buttons" id="teamSelectionButtons">
+                    <!-- أزرار الفرق سيتم إنشاؤها تلقائياً -->
+                </div>
+            </div>
+            <div class="categories-grid" id="categoriesGrid">
+                <!-- المجموعات سيتم تحميلها هنا تلقائياً -->
+            </div>
+        </main>
+        
+        <!-- Fixed Global Footer -->
+        <footer class="global-footer">
+            <div class="teams-container" id="teamsContainer">
+                <!-- الفرق سيتم إنشاؤها تلقائياً -->
+            </div>
+            <div class="developer-credit">
+                Developed by Abdulrahman Alotaibi
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

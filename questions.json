@@ -1,0 +1,134 @@
+{
+    "هندسة الكمبيوتر والذكاء الاصطناعي": {
+        "image": "images/computer_main.jpg",
+        "questions": [
+            {
+                "points": 100,
+                "question": "كم لغه يوجد للحاسوب؟",
+                "answer": "اكثر من ٧٠٠ لغه"
+            },
+            {
+                "points": 200,
+                "question": "ماهي اكثر لغات الحاسوب استخداما نظرا لسهولتها؟",
+                "answer": "البايثون"
+            },
+            {
+                "points": 300,
+                "question": "الفريق الأحمر في الأمن السيبراني مسؤول عن ماذا تحديدًا في منظومة العمل؟",
+                "answer": "مسؤول عن اختبار الاختراق والفحص الأمني من الثغرات"
+            },
+            {
+                "points": 400,
+                "question": "هجوم إلكتروني يعمل على محاولات عديدة لتخمين كلمة المرور، ما هو؟",
+                "answer": "Brute Force"
+            }
+        ]
+    },
+    "الهندسة الميكانيكية": {
+        "image": "images/mechanical_main.jpg",
+        "questions": [
+            {
+                "points": 100,
+                "question": "كم نسبة استهلاك أجهزه التكييف من إجمالي استهلاك الكهرباء في الكويت؟",
+                "answer": "٧٠٪؜"
+            },
+            {
+                "points": 200,
+                "question": "ما اسم غاز التبريد الذي يستخدم في الدورة المغلقة داخل أجهزه التكييف؟",
+                "answer": "غاز الفريون"
+            },
+            {
+                "points": 300,
+                "question": "في الهندسة الميكانيكية، هناك ثلاثة أنواع رئيسية لانتقال الحرارة ماهي؟",
+                "answer": "التوصيل (Conduction)، الحمل (Convection)، الإشعاع (Radiation)"
+            },
+            {
+                "points": 400,
+                "question": "ما هي المكونات الأربعة الأساسية التي تشكل دورة التبريد في أجهزه التكييف؟",
+                "answer": "الضاغط (Compressor)، المكثف (Condenser)، صمام التمدد (Expansion Valve)، المبخر (Evaporator)"
+            }
+        ]
+    },
+    "الهندسة المدنية": {
+        "image": "images/civil_main.jpg",
+        "questions": [
+            {
+                "points": 100,
+                "question": "اذكر ٣ أشياء من لبس عامل البناء",
+                "answer": "الخوذه، الفيست، حذاء الامان، كمام، نظاره، قفازات"
+            },
+            {
+                "points": 200,
+                "question": "اذكر ٣ من مواد البناء",
+                "answer": "رمل، حصى، اسمنت، حديد"
+            },
+            {
+                "points": 300,
+                "question": "اذكر أحد البنى التحتية",
+                "answer": "الصرف الصحي، تمديدات الكهرباء"
+            },
+            {
+                "points": 400,
+                "question": "لماذا يستخدم الحديد مع الاسمنت في الخرسانة؟",
+                "answer": "لأن الحديد يساعد في تماسك الخرسانة في حال التمدد والانكماش"
+            }
+        ]
+    },
+    "الهندسة المعمارية": {
+        "image": "images/architecture_main.jpg",
+        "questions": [
+            {
+                "points": 100,
+                "question": "من أين بدأت العمارة؟",
+                "answer": "من الطبيعة و محاولات التكيف معها"
+            },
+            {
+                "points": 200,
+                "question": "ما الاسم المعماري لهذا المخطط؟",
+                "answer": "Plan"
+            },
+            {
+                "points": 300,
+                "question": "ماهي ثاني خطوة في وظيفة المهندس المعماري؟",
+                "answer": "دراسة المساحات وتقسيمها حسب الاحتياجات"
+            },
+            {
+                "points": 400,
+                "question": "ما الفائدة من استخدام مخططات الSections؟",
+                "answer": "لمعرفة الارتفاعات المحددة لكل طابق"
+            }
+        ]
+    },
+    "من أنا": {
+        "image": "images/history.jpg",
+        "questions": [
+            {
+                "points": 200,
+                "question": "صورة مغبشة",
+                "answer": "صورة مكشوفة",
+                "image": "questions-image/Q1.jpeg",
+                "answerImage": "questions-image/Q1-A.jpeg"
+            },
+            {
+                "points": 200,
+                "question": "صورة مغبشة",
+                "answer": "صورة مكشوفة",
+                "image": "questions-image/Q2.jpeg",
+                "answerImage": "questions-image/Q2-A.jpeg"
+            },
+            {
+                "points": 200,
+                "question": "صورة مغبشة",
+                "answer": "صورة مكشوفة",
+                "image": "questions-image/Q3.jpeg",
+                "answerImage": "questions-image/Q3-A.jpeg"
+            },
+            {
+                "points": 200,
+                "question": "من الناقص من الصورة؟",
+                "answer": "عبدالمحسن المري",
+                "image": "questions-image/abdulmhsn almri.jpeg"
+            }
+        ]
+    }
+}
